@@ -1,2 +1,2 @@
 Hosted Link
-https://odions-netflix-clone.netlify.app/
+https://main--odions-netflix-clone.netlify.app/
