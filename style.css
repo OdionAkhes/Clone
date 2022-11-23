@@ -7,26 +7,18 @@
 }
 
 body {
-    font-family: Netflix Sans,
-        Helvetica Neue,
-        Segoe UI,
-        Roboto,
-        Ubuntu,
-        sans-serif;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+            sans-serif;
     background: #000;
     color: #999;
     font-size: 16px;
     max-width: 100%;
-
 }
 
 .container {
-    margin-left: 45px;
-    margin-right: 45px;
-
+    margin-left: 60px;
+    margin-right: 60px;
 }
-
-
 
 img {
     width: 100%;
@@ -38,10 +30,9 @@ img {
     inset: 0;
     background-image: url(./assets/hero-img.jpd.jpeg);
     opacity: 0.9;
-
     background-size: cover;
     background-position: center;
-    height: 95vh;
+    height: 100vh;
     position: relative;
     background-repeat: no-repeat;
     border-bottom: 8px solid #222;
@@ -86,10 +77,7 @@ font-size: 1rem;
     font-weight: 400;
     padding: 7px 17px;
     margin-top: 0.5rem;
-
-
 }
-
 
 .header-content {
     letter-spacing: 1.4;
@@ -153,16 +141,11 @@ font-size: 1rem;
 
 section {
     display: flex;
-    /* grid-template-columns: 1fr 1fr; */
-justify-content: space-around;
-/* max-width: 110px; */
+    justify-content: space-around;
     margin: 0  auto;
      border-bottom: 8px solid #222;
-     /* gap: 10px; */
-        /* max-width: 1100px; */
      line-height: 1.4;
     padding: 70px 35px;
-        /* padding: 25px 45px 50px; */
 }
 section h1 {
     font-size: 50px;
@@ -177,33 +160,21 @@ section h2 {
 .card-img {
     position: relative;
     width: 550px;
-   
-
-
 }
 
-/* .card-img img {
-    position: relative;
-    height: auto;
-    width: 550px;
-    z-index: 2;
-} */
 .vid-img {
     position: relative;
-        height: auto;
-        width: 550px;
-        z-index: 2;
-        padding-right: 35px;
+     height: auto;
+     width: 550px;
+     z-index: 2;
+    padding-right: 35px;
 }
 .card-img video {
     position: absolute;
     width: 75%;
-    /* height:290px; */
     background-repeat: no-repeat;
     top: 80px;
     left: 68px;
-    /* object-fit: contain; */
-
 }
 
 
@@ -219,28 +190,28 @@ section h2 {
 color: #737373;
 font-size: 16px;
 padding: 40px 65px  ;
-    width: 75%;
-    max-width: 850px;
-      margin-left: 5rem ; 
+ width: 75%;
+max-width: 850px;
+margin-left: 5rem ; 
 
 }
 .stranger {
-    position: relative;
+position: relative;
 }
 .over-phone {
 display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-        grid-gap: 1.5em;
-        max-width: 20rem;
-        width: 330px;
-        border: 2px solid #ffffff40;
-    border-radius: 0.75em;
-        box-shadow: 0 0 2em 0 #000;
-            position: absolute;
-            bottom: 10%;
-            left: 20%;
-        padding: 0.5em 0.75em;
-            background: #000;
+grid-template-columns: 1fr 2fr 1fr;
+ grid-gap: 1.5em;
+ max-width: 20rem;
+ width: 330px;
+ border: 2px solid #ffffff40;
+   border-radius: 0.75em;
+  box-shadow: 0 0 2em 0 #000;
+  position: absolute;
+ bottom: 10%;
+ left: 20%;
+padding: 0.5em 0.75em;
+ background: #000;
 }
 .text {
  display: flex;
@@ -252,55 +223,24 @@ font-size: 16px;
 }
 .text p {
     font-size: 14px;
-        color: #0071eb;
+     color: #0071eb;
     font-weight: 400;text-align: left;
 }
 
 .over-phone img {
     height: 4.5em;
     width: 50px;
-        /* max-width: 100%; */
 }
 .over-phone .gif {
-
     height: 3.75em;
       max-width: 100%; 
         width: 3em;
         outline: 2px solid #000;
         display: flex;
         text-align: center;
-margin-top: 5px;
+    margin-top: 5px;
         align-items: center;
         justify-content: center;
-}
-
-footer a {
-        color: #737373;;
-    
-}
-footer li {
-        font-size: 13px;
-       
-}
-
-.footer-cols {
-    font-size: 13px;
-    display: flex;
-    justify-content: space-between;
-}
-.footer-country {
-    margin-top: 24px;
-
-    font-size: 13px;
-}
-.footer p {
-    margin-bottom: 1rem;
-
-}
-
-.footer li {
-    line-height: 1.9;
-    margin-bottom: 12px;
 }
 
 
@@ -316,24 +256,51 @@ border-bottom: 8px solid #222;
     font-size: 50px;
     margin-bottom: 50px;
 }
+.faq form {
+    text-align: center;
+
+}
+
+.bottom {
+    width: 700px;
+    margin: 70px auto;
+}
+
+.faq .h3 {
+    font-size: 19px;
+    font-weight: 400;
+    margin: 0 auto;
+    justify-content: center;
+}
 
 .question {
     width: 75%;
-    max-width: 815px;;
+    max-width: 815px;
     height: 57px;
-    margin:10px auto;
-        font-size: 20px;
+    margin:4px auto;
+    font-size: 20px;
     font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color:#303030;
-
-        padding: 36px 30px;
-
+ padding: 36px 30px;
+cursor: pointer;
+}
+p.answer {
+    width: 75%;
+    max-width: 815px;
+    margin: -3px auto;
+    margin-bottom: 8px;
+display: flex;
+text-align: left;
+    background-color: #303030;
+    font-size: 25px;
+  font-weight: 400;
+    padding: 36px 30px;
 }
 .question p {
-
+cursor: pointer;
     font-size: 250%;
     display: flex;
     font-weight: 200;
@@ -341,12 +308,15 @@ border-bottom: 8px solid #222;
     align-items: center;
     justify-content: center;
 }
-
+.question p:hover, .question p:hover, .question p:active {
+transform: rotate(45deg);
+font-size: 280%;
+margin-right: -10px;
+}
 
 .footer {
     max-width: 80%;
-    margin: auto;
-
+    margin: 0.5rem auto;
     text-align: left;
 }
 
@@ -354,7 +324,7 @@ border-bottom: 8px solid #222;
 .footer a {
     color: #737373;
     font-size: 0.9rem;
-        font-size: 13px;
+ font-size: 13px;
 }
 
 .footer p {
@@ -366,26 +336,40 @@ border-bottom: 8px solid #222;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
-
 }
 
 .footer li {
     line-height: 2.4;
 }
-.faq form {
-    text-align: center;
-    /* width: 600px; */
 
-        /* margin-bottom: 70px; */
+footer a {
+    color: #737373;
+    
+}
+
+footer li {
+    font-size: 13px;
 
 }
-.bottom {
-    width: 700px;
-        margin: 70px auto;
+
+.footer-cols {
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
 }
-.faq .h3 {
-    font-size: 19px;
-        font-weight: 400;
-        margin: 0 auto;
-        justify-content: center;
+
+.footer-country {
+    margin-top: 24px;
+
+    font-size: 13px;
+}
+
+.footer p {
+    margin-bottom: 1rem;
+
+}
+
+.footer li {
+    line-height: 1.9;
+    margin-bottom: 12px;
 }
