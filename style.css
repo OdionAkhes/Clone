@@ -346,7 +346,9 @@ footer a {
     color: #737373;
     
 }
-
+.footer li  a:hover {
+    text-decoration: underline;
+}
 footer li {
     font-size: 13px;
 
