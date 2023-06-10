@@ -1,2 +1,2 @@
 Hosted Link
-https://main--odions-netflix-clone.netlify.app/
+https://classy-kleicha-ba2818.netlify.app/
